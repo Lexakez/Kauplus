@@ -7,9 +7,11 @@ public class Client implements Serializable {
     private String firstName;
     private String lastName;
     private String phoneNumber;
+    private int purchaseAmount;
     private double balance;
 
     public Client() {
+        this.purchaseAmount = 0;
     }
 
     public String getFirstName() {
@@ -36,7 +38,15 @@ public class Client implements Serializable {
         this.phoneNumber = phoneNumber;
     }
     
-        public double getBalance() {
+    public void increase(int amount){
+        this.purchaseAmount += amount;
+    }
+    
+    public int getPurchaseAmount(){
+        return purchaseAmount;
+    }
+    
+    public double getBalance() {
         return balance;
     }
 
@@ -85,6 +95,7 @@ public class Client implements Serializable {
                "firstName='" + firstName + '\'' +
                ", lastName='" + lastName + '\'' +
                ", phoneNumber='" + phoneNumber + '\'' +
+               ", Amount of purchases='" + purchaseAmount + '\'' +
                '}';
     }
 }

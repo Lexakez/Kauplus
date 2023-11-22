@@ -35,6 +35,7 @@ public class HistoryManager {
         System.out.print("Enter number client from list: ");
         int numberClient = InputProtection.intInput(1, clients.length);
         History.setClient(clients[numberClient - 1]);
+        clients[numberClient - 1].increase(1);
         History.setPurchaseDate(new GregorianCalendar().getTime());
 
         return History;

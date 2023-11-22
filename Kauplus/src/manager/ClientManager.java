@@ -30,12 +30,13 @@ public class ClientManager {
     public void printListClients(Client[] clients) {
         System.out.println("----- List clients -----");
         for (int i = 0; i < clients.length; i++) {
-            System.out.printf("%d. %s %s. (%s) - Balance: $%.2f%n",
+            System.out.printf("%d. %s %s. (%s) - Balance: $%.2f Purchases: %s %n",
                     i + 1,
                     clients[i].getFirstName(),
                     clients[i].getLastName(),
                     clients[i].getPhoneNumber(),
-                    clients[i].getBalance()
+                    clients[i].getBalance(),
+                    clients[i].getPurchaseAmount()
             );
         }
     }
