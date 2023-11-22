@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="1">
+        <file>
+            <url>src/manager/SaveManager.java</url>
+            <bookmark id="1">
+                <name/>
+                <line>107</line>
+                <key/>
+            </bookmark>
+        </file>
+    </editor-bookmarks>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/D:/Java%20Project/Kauplus/src/entity/History.java</file>
+            <file>file:/D:/Java%20Project/Kauplus/src/kauplus/Kauplus.java</file>
+            <file>file:/D:/Java%20Project/Kauplus/src/manager/HistoryManager.java</file>
+            <file>file:/D:/Java%20Project/Kauplus/src/manager/ProductManager.java</file>
+            <file>file:/D:/Java%20Project/Kauplus/src/entity/Product.java</file>
+            <file>file:/D:/Java%20Project/Kauplus/src/manager/ClientManager.java</file>
+            <file>file:/D:/Java%20Project/Kauplus/src/entity/Client.java</file>
+            <file>file:/D:/Java%20Project/Kauplus/src/kauplus/App.java</file>
+        </group>
+    </open-files>
+</project-private>
